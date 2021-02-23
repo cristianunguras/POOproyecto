@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+    font-family: sans-serif;
+    color: #4a4a4a;
+}
+
+img {
+    width: 100%;
+}
+
+.cursos {
+    width: 80vw;
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    gap: 1rem;
+}
+
+.curso {
+    width: 80vw;
+    display: grid;
+    grid-template-columns: 0.25fr 0.25fr repeat(15, 0.1fr);
+    gap: 1rem;
+}
+
+
+/* CARD */
+
+.card {
+    border-radius: 10px;
+    padding: 0.5rem;
+    border: 1px solid #eee;
+    cursor: pointer;
+}
+
+.card:hover {
+    box-shadow: 5px 3px 10px rgb(123, 123, 123);
+}
+
+.boton {
+    background-color: grey;
+    border-radius: 10px;
+    color: white;
+    padding: 6px 6px;
+    font-size: 16px;
+    min-width: 30%;
+    text-decoration: none;
+    margin: 4px 2px;
+}
+
+.boton:hover {
+    background-color: #333;
+}
